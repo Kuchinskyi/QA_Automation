@@ -6,6 +6,8 @@ public class Homework3 {
         System.out.println("Hello Git");
         System.out.println("Hello Git");
         System.out.println("Hello Git");
+        System.out.println("Hello Git");
+        System.out.println("Hello Git");
 
     }
 }
