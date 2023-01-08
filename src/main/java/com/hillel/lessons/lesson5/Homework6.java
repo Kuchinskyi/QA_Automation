@@ -145,9 +145,9 @@ public class Homework6 {
             }
         }
         int fragTeam1 = player1Team1 + player2Team1 + player3Team1 + player4Team1 + player5Team1;
-        double arithmeticMeanTeam1 = fragTeam1 / 5;
+        double arithmeticMeanTeam1 = (double)fragTeam1 / 5;
         int fragTeam2 = player1Team2 + player2Team2 + player3Team2 + player4Team2 + player5Team2;
-        double arithmeticMeanTeam2 = fragTeam2 / 5;
+        double arithmeticMeanTeam2 = (double)fragTeam2 / 5;
         System.out.println("Average number of frags Team " + team1 + " = " + arithmeticMeanTeam1);
         System.out.println("Average number of frags Team " + team2 + " = " + arithmeticMeanTeam2);
         System.out.println();
