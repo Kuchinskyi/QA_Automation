@@ -17,7 +17,7 @@ public class Homework_9 {
         int[] team2 = new int[25];
         for (int i = 0; i < team2.length; i++) {
             team2[i] = 18 + (int) (Math.random() * 22);
-            if (team1.length - 1 == i) {
+            if (team2.length - 1 == i) {
                 System.out.print("Player " + (i + 1) + " - " + team2[i] + " years ");
             } else {
                 System.out.print("Player " + (i + 1) + " - " + team2[i] + " years, ");
