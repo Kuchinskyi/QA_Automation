@@ -13,6 +13,7 @@ public class Homework_10 {
                 n = scanner1.nextInt();
                 if (n <= 0) {
                     System.out.println("Wrong data!");
+                    scanner1.nextLine();
                 } else {
                     System.out.println("First number = " + n);
                     break;
@@ -33,6 +34,7 @@ public class Homework_10 {
                 m = scanner2.nextInt();
                 if (m <= 0) {
                     System.out.println("Wrong data!");
+                    scanner2.nextLine();
                 } else {
                     System.out.println("Second number = " + m);
                     break;
