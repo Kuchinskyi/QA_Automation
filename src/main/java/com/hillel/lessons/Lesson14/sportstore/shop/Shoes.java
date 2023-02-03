@@ -2,7 +2,7 @@ package com.hillel.lessons.Lesson14.sportstore.shop;
 
 import com.hillel.lessons.Lesson14.sportstore.abstractions.FootballClothes;
 
-public class Shoes extends FootballClothes {
+public final class Shoes extends FootballClothes {
     private String type;
     private int weight;
 
