@@ -71,8 +71,6 @@ public class Users {
         this.pressure = pressure;
         this.steps = steps;
         this.setUserAge();
-
-
     }
 
     private void setUserAge() {

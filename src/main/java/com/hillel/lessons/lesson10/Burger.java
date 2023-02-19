@@ -31,6 +31,7 @@ public class Burger {
         this.mayonnaisePercent = mayonnaisePercent;
         this.showIngredients();
     }
+
     public void showIngredients() {
         String ingredientsList = "Bun - " + this.bun + ", meat - " + this.meat + ", cheese - " +
                 this.cheese + ", greenery - " + this.greenery;
