@@ -17,7 +17,6 @@ public class ProductMarket {
             names.add(prod.getName());
         }
         return names;
-
     }
 
     public List<String> sortNames() {
@@ -54,12 +53,7 @@ public class ProductMarket {
         for (Product prod : productList) {
             String priceStr = Integer.toString(prod.getPrice());
             price.add(priceStr);
-
         }
         return price;
-
     }
-
-
 }
-
