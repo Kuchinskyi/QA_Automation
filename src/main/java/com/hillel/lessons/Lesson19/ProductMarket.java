@@ -39,9 +39,10 @@ public class ProductMarket {
                 .collect(Collectors.toList());
     }
 
-    public List<String> getStrPrice() {
+    public List <String> getStrPrice() {
         return products.stream()
-                .map(Product::toString)
+                .map(Product::getPrice)
+                .map(String::valueOf)
                 .collect(Collectors.toList());
     }
 }
