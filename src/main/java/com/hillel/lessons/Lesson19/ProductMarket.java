@@ -41,7 +41,8 @@ public class ProductMarket {
     }
 
     public List<String> getStrPrice() {
-        return Collections.singletonList(products.stream()
-                .map(Product::getPrice).toList().toString());
+        return products.stream()
+                .map(Product::toString)
+                .collect(Collectors.toList());
     }
 }
